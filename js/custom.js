@@ -534,4 +534,13 @@ $(function () {
     onPause: tripetto.onPause,
     persistent: true
   });
+
+  // -------------------------------------------- //
+  // Force check url and redirect the user
+  // -------------------------------------------- //
+  const registerURL = window.location.href.split("/#")[1]
+  if (registerURL === "register") {
+    document.getElementById("contact-trigger").click()
+  }
+
 });
