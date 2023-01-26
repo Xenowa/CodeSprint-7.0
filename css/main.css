@@ -4381,7 +4381,7 @@ form .inputs-description {
 =============
 Tripetto form
 =============
- */
+*/
 .tripetto-form {
   margin: 5rem auto;
   padding: 5rem 0;
@@ -4389,4 +4389,15 @@ Tripetto form
   -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* --------------------------*/
+/* Official Partner Logo Divs
+/* --------------------------*/
+.partner__logo {
+  transition: all 300ms ease-in-out;
+}
+
+.partner__logo:hover {
+  transform: translate(0, -3px);
 }
