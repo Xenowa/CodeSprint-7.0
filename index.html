@@ -72,13 +72,22 @@
                       <div class="col-8">
                         <div class="controls__leftline d-flex justify-content-start align-items-center">
 
+
                           <!-- Menu Notify Trigger Start -->
-                          <a class="btn-round-mobile btn-notify btn-light-mobile hover-white hover-white-s"
-                            href="https://store.codesprint.lk/" target="_blank">
+                          <a id="notify-trigger-menu"
+                            class="btn-round-mobile btn-notify btn-light-mobile hover-white hover-white-s" href="#0">
                             <em></em>
                             <span class="btn-caption">Store</span>
                           </a>
                           <!-- Menu Notify Trigger End -->
+
+                          <!-- Menu Store Redirect Start -->
+                          <!-- <a class="btn-round-mobile btn-notify btn-light-mobile hover-white hover-white-s"
+                            href="https://store.codesprint.lk/" target="_blank">
+                            <em></em>
+                            <span class="btn-caption">Store</span>
+                          </a> -->
+                          <!-- Menu Store Redirect End -->
 
                           <!-- Menu Socials Start -->
                           <div class="socials-menu">
@@ -1692,6 +1701,36 @@
       </div>
     </div>
     <!-- Project Popup #4 End -->
+
+    <!-- Notify Popup Start -->
+    <div id="notify" class="popup notify">
+      <div class="popup__container">
+
+        <!-- Popup Controls Start -->
+        <div class="popup__controls d-flex justify-content-end">
+          <a href="#0" id="notify-close" class="popup-close hover-gradient hover-gradient-s">
+            <em></em>
+            <span></span>
+          </a>
+        </div>
+        <!-- Popup Controls End -->
+
+        <!-- Popup Content Start -->
+        <div class="popup__content block-rounded-l">
+
+          <!-- Notify Popup Title Start -->
+          <div class="popup-title">
+            <p class="popup-title__title">The Store is Currently Unavailable</p>
+            <p class="popup-title__text">Please check back for an update later!</p>
+          </div>
+          <!-- Notify Popup Title End -->
+
+        </div>
+        <!-- Popup Content End -->
+
+      </div>
+    </div>
+    <!-- Notify Popup End -->
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
     <div class="pswp" tabindex="-1" role="dialog">
