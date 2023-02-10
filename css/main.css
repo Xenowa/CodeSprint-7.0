@@ -4401,3 +4401,20 @@ Tripetto form
 .partner__logo:hover {
   transform: translate(0, -3px);
 }
+
+/* 
+=====
+Count
+=====
+ */
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #f987d6;
+  line-height: 28px;
+}
+
+.counter::after {
+  content: "+";
+}
