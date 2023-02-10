@@ -2733,7 +2733,7 @@ form .inputs-description {
   .headline {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 45%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
