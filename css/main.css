@@ -985,7 +985,7 @@ h1.large {
 }
 @media only screen and (min-width: 1400px) {
   .headline__subtitle {
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 }
 
@@ -1764,7 +1764,7 @@ a {
   display: inline-block;
   border: none;
   outline: 0;
-  padding: 0 2.4rem;
+  padding: 0 1.4rem;
   background-color: transparent;
   cursor: pointer;
   text-decoration: none;
@@ -2200,8 +2200,8 @@ a {
 }
 @media only screen and (min-width: 1400px) {
   .btn-bottom .circle {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
   }
   .btn-bottom .circle i {
     font-size: 1.8rem;
@@ -2769,7 +2769,7 @@ form .inputs-description {
 @media only screen and (min-width: 1200px) {
   .intro__button {
     position: absolute;
-    bottom: 5rem;
+    bottom: 2rem;
     left: 8rem;
     margin: 0;
     padding: 0;
@@ -2777,7 +2777,7 @@ form .inputs-description {
 }
 @media only screen and (min-width: 1400px) {
   .intro__button {
-    bottom: 6rem;
+    bottom: 2rem;
     left: 10rem;
   }
 }
