@@ -541,6 +541,14 @@ $(function () {
   const registerURL = window.location.href.split("/#")[1]
   if (registerURL === "register") {
     document.getElementById("contact-trigger").click()
+  } else if (registerURL === "ideasprint") {
+    document.getElementById("project-trigger-1").click()
+  } else if (registerURL === "designsprint") {
+    document.getElementById("project-trigger-2").click()
+  } else if (registerURL === "buildsprint") {
+    document.getElementById("project-trigger-3").click()
+  } else if (registerURL === "sprintpitch") {
+    document.getElementById("project-trigger-4").click()
   }
 
   // -------------------------------------------- //
