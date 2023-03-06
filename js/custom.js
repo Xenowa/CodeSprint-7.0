@@ -569,4 +569,18 @@ $(function () {
     });
   });
 
+  // -------------------------------------------- //
+  // Phases Page transition
+  // -------------------------------------------- //
+  $("#portfolio-trigger-2").on("click", function () {
+    document.getElementById("portfolio-trigger").click()
+  })
+
+  // -------------------------------------------- //
+  // Phases Page transition
+  // -------------------------------------------- //
+  $("#merch-store-trigger").on("click", function () {
+    document.getElementById("store-trigger").click()
+    document.getElementById("home-trigger").click()
+  })
 });
