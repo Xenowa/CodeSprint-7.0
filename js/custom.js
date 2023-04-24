@@ -257,8 +257,8 @@ $(function () {
         "color": {
           //"value": "#f0ecb2" // IdeaSprint
           // "value": "#5115b2" // DesignSprint
-          "value": "#FF5959" // BuildSprint
-          //"value": "#526CFF" // SprintPitch
+          // "value": "#FF5959" // BuildSprint
+          "value": "#526CFF" // SprintPitch
         },
         "shape": {
           "type": "circle",
