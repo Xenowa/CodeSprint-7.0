@@ -244,6 +244,7 @@ $(function () {
   // --------------------------------------------- //
   // Triangles BG - particlesJS
   var bgndTriangles = $('#triangles-js');
+  const colors = ["#f0ecb2", "#5115b2", "#FF5959", "#526CFF"]
   if (bgndTriangles.length) {
     particlesJS('triangles-js', {
       "particles": {
@@ -258,7 +259,8 @@ $(function () {
           //"value": "#f0ecb2" // IdeaSprint
           // "value": "#5115b2" // DesignSprint
           // "value": "#FF5959" // BuildSprint
-          "value": "#526CFF" // SprintPitch
+          // "value": "#526CFF" // SprintPitch
+          "value": colors[Math.round(Math.random() * (colors.length - 1))] // All Phases end
         },
         "shape": {
           "type": "circle",
